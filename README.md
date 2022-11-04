@@ -36,3 +36,5 @@ Usage example:
 
 **Output**: csv file showing details of PSMs with Y/N columns for each diagnostic ion
 
+#### Citation:
+If you use this tool, please cite our paper [manuscript in preparation]
