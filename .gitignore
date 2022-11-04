@@ -1,0 +1,7 @@
+#files for git to ignore
+
+*.log
+*.swp
+*.*swp
+*.o
+*.exe
