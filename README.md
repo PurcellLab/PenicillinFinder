@@ -2,7 +2,7 @@
 ## Tool to report diagnostic ions of drug-haptenated peptides
 When benzylpenicillin-haptenated peptides are subjected to mass spectrometry, the haptenation causes distinctive fragment ions at 160.0432, 217.0647 and 335.1066 m/z in the tandem mass spectra. PenicillinFinder aims to help researchers confirm the presence of haptenated peptides among mass spectrometry search results by reporting the presence or absence of these diagnostic ions for each peptide-spectrum match. While this was the primary goal, the program can also be used to search for other ion masses so it may be used to help identify other drug haptenations or biological post-translational modifications that produce suitable diagnostic ions.
 
-PenicillinFinder was written in the C programming language and has been compiled and run on Ubuntu 18.04, and also compiled on Linux for Windows using MinGW. It was designed to take input mzIdentML and mgf files exported from PEAKS Studio XPro with Bruker TimsTOF or SCIEX data. It may also work for these input file formats derived from other search engines but this has not been tested.
+PenicillinFinder was written in the C programming language and has been compiled and run on Ubuntu 18.04, and also compiled on Linux for Windows using MinGW. It was designed to take input mzIdentML and mgf files exported from PEAKS Studio XPro with Bruker TimsTOF, SCIEX, or Thermo Scientific data. It may also work for these input file formats derived from other search engines but this has not been tested.
 
 #### Compilation examples:
 Linux:
