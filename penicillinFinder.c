@@ -420,7 +420,7 @@ void print_usage()
 	printf("Usage:\nRequired\n");
 	printf("\t-p\tSpecify peptide search results (peptides_1_1_0.mzid from PEAKS,\n");
 	printf("\t\t\tin the same folder as the associated mgf files)\n");
-	printf("Optional\n\t-b\tSpecify mode is Bruker (default is SCIEX)\n");
+	printf("Optional\n\t-b\tSpecify mode is Bruker to include ion mobility information\n");
 	printf("\t-i\tSpecify diagnostic ions in comma-separated list\n\t\t(default is '160.0432,217.0647,335.1066')\n");
 	printf("\t-o\tSpecify name for output csv file (default is 'output')\n");
 	printf("\t-h\tPrint help\n");
