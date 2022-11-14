@@ -29,7 +29,7 @@ Usage example:
 
 |Optional:||
 ---|---
--b|Specify mode is Bruker (default is SCIEX)
+-b|Specify mode is Bruker to include ion mobility information
 -i|Specify diagnostic ions in comma-separated list (default is '160.0432,217.0647,335.1066')
 -o|Specify name for output csv file (default is 'output')
 -h|Print help
